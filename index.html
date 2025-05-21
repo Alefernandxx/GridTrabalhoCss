@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Retrô – Clássicos do PS1</title>
+
+  <meta name="description" content="Reviva a era de ouro dos videogames com Game Retrô. Jogos clássicos, sinopses, formulários e galeria interativa.">
+  <meta name="keywords" content="jogos retrô, PS1, clássicos, Crash Bandicoot, Resident Evil, Game Retrô">
+  <meta name="author" content="Seu Nome">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Game Retrô – Clássicos do PS1">
+  <meta property="og:description" content="Reviva a nostalgia dos videogames com clássicos como Crash Bandicoot e Resident Evil.">
+  <meta property="og:image" content="https://seudominio.com/imagens/cartao-social.jpg">
+  <meta property="og:url" content="https://seudominio.com">
+  <meta property="og:site_name" content="Game Retrô">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Game Retrô – Clássicos do PS1">
+  <meta name="twitter:description" content="Descubra os jogos que marcaram época. PS1, nostalgia e diversão!">
+  <meta name="twitter:image" content="https://seudominio.com/imagens/cartao-social.jpg">
+
+  <link rel="icon" href="imagens/logo.png" type="image/png">
+  <link rel="preload" href="css/estilo.css" as="style">
+  <link rel="stylesheet" href="bootstrap/normalize.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-nome">
+      <img src="imagens/logo.png" alt="Logo Game Retrô" width="40" height="40" loading="lazy">
+      <h1>Game Retrô</h1>
+    </div>
+  </header>
+
+  <nav class="menu-fixo" aria-label="Menu principal">
+    <ul>
+      <li><a href="#secao1">Jogos</a></li>
+      <li><a href="#secao2">Sinopse</a></li>
+      <li><a href="#secao3">Formulário</a></li>
+      <li><a href="#secao4">Galeria</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="secao1">
+      <h2>Jogos</h2>
+      <div class="conteudo">
+        <img src="imagens/game1.jpg" alt="Crash Bandicoot (PS1)" loading="lazy">
+        <p>Crash Bandicoot (PS1)</p>
+      </div>
+      <div class="conteudo">
+        <img src="imagens/game2.jpg" alt="Resident Evil 3 (PS1)" loading="lazy">
+        <p>Resident Evil 3 (PS1)</p>
+      </div>
+      <div class="conteudo">
+        <img src="imagens/game3.jpg" alt="Tony Hawk's Pro Skater (PS1)" loading="lazy">
+        <p>Tony Hawk's Pro Skater (PS1)</p>
+      </div>
+      <div class="conteudo">
+        <img src="imagens/game4.png" alt="Spyro the Dragon (PS1)" loading="lazy">
+        <p>Spyro the Dragon (PS1)</p>
+      </div>
+      <div class="conteudo">
+        <img src="imagens/game5.jpg" alt="Spider-Man (PS1)" loading="lazy">
+        <p>Spider-Man (PS1)</p>
+      </div>
+    </section>
+
+    <section id="secao2">
+      <h2>Sinopse</h2>
+
+      <div class="conteudo">
+        <img src="imagens/game1.jpg" alt="Capa Crash Bandicoot" loading="lazy">
+        <p>Crash Bandicoot é o primeiro jogo da série, lançado pela Naughty Dog em 1996. Crash foi criado pelo Dr. Neo Córtex para ser parte de um exército de animais mutantes, mas se rebela para salvar sua namorada e impedir os planos do vilão.</p>
+      </div>
+
+      <div class="conteudo">
+        <img src="imagens/game2.jpg" alt="Capa Resident Evil 3" loading="lazy">
+        <p>Resident Evil 3: Nemesis segue Jill Valentine fugindo de uma cidade infectada enquanto é perseguida pelo terrível Nemesis. Um clássico do terror lançado em 1999.</p>
+      </div>
+
+      <div class="conteudo">
+        <img src="imagens/game3.jpg" alt="Capa Tony Hawk" loading="lazy">
+        <p>Tony Hawk's Pro Skater traz desafios de skate em ambientes urbanos, com manobras radicais e trilha sonora marcante.</p>
+      </div>
+
+      <div class="conteudo">
+        <img src="imagens/game4.png" alt="Capa Spyro" loading="lazy">
+        <p>Spyro the Dragon é uma aventura 3D onde você controla o dragão Spyro, salvando outros dragões e recuperando tesouros roubados.</p>
+      </div>
+
+      <div class="conteudo">
+        <img src="imagens/game5.jpg" alt="Capa Spider-Man" loading="lazy">
+        <p>O jogo Spider-Man coloca você na pele do herói tentando limpar seu nome após ser incriminado por um impostor que roubou tecnologia em uma feira de ciências.</p>
+      </div>
+    </section>
+
+    <section id="secao3">
+      <h2>Cadastre-se</h2>
+      <div class="form-container">
+        <form>
+          <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label>Nome:
+              <input type="text" name="nome" required>
+            </label>
+            <label>Email:
+              <input type="email" name="email" required>
+            </label>
+            <label>Data de Nascimento:
+              <input type="date" name="data">
+            </label>
+            <label>Gênero:
+              <select name="genero">
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+              </select>
+            </label>
+            <label>
+              <input type="checkbox" name="newsletter">
+              Deseja receber novidades?
+            </label>
+          </fieldset>
+        </form>
+
+        <form>
+          <fieldset>
+            <legend>Preferências de Jogo</legend>
+            <label>Console Favorito:
+              <input type="text" name="console">
+            </label>
+            <label>Jogo Favorito:
+              <input type="text" name="jogo">
+            </label>
+            <label>Gênero Preferido:
+              <select name="genero-jogo">
+                <option>Ação</option>
+                <option>RPG</option>
+                <option>Corrida</option>
+                <option>Terror</option>
+              </select>
+            </label>
+            <label>Horário Preferido para Jogar:
+              <input type="time" name="hora">
+            </label>
+            <label>Comentários:
+              <textarea rows="3"></textarea>
+            </label>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <section id="secao4">
+      <h2>Painel de Fotos</h2>
+      <div class="painel-fotos">
+        <div class="foto foto1" role="img" aria-label="Imagem retro 1"></div>
+        <div class="foto foto2" role="img" aria-label="Imagem retro 2"></div>
+        <div class="foto foto3" role="img" aria-label="Imagem retro 3"></div>
+        <div class="foto foto4" role="img" aria-label="Imagem retro 4"></div>
+        <div class="foto foto5" role="img" aria-label="Imagem retro 5"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Game Retrô. Todos os direitos reservados.</p>
+      <p>
+        Siga-nos:
+        <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a> |
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a> |
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
